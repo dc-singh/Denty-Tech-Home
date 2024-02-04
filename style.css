@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Akaya+Kanadaka&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Akaya Kanadaka';
+}
+
+html,body {
+    height: 100%;
+    width: 100%;
+}
+
+.main {
+    height: 100%;
+    width: 100%;
+}
+
+.nav {
+    height: 100px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 10px;
+}
+
+.nav-part1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav h3 {
+    font-weight: 500;
+    font-size: 17px;
+    border: 1.5px solid black;
+    padding: 5px 8px;
+    border-radius: 50px;
+}
+.nav i {
+    font-size: 16px;
+    border: 1.5px solid black;
+    padding: 5px 10px;
+    border-radius: 50px;
+}
+
+.nav h1 {
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 26px;
+}
+
+.nav button {
+    padding: 7px 12px;
+    border-radius: 50px;
+    border: 1.5px solid black;
+    font-size: 16px;
+}
+
+.btn2 {
+    background-color: orangered;
+    color: white;
+    border: none !important;
+}
+
+.main > h1 {
+    font-size: 160px;
+    text-transform: uppercase;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    text-align: center;
+}
+
+img {
+    height: 400px;
+    width: 350px;
+    object-fit: cover;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    border-radius: 20px;
+    transform: translate(-50%, -50%);
+}
+.img1{
+    transform: translate(-50%, -50%) rotate(-30deg);
+}
+
+.img2 {
+    transform: translate(-50%, -50%) rotate(-20deg);
+}
+.img3 {
+    transform: translate(-50%, -50%) rotate(-10deg);
+}
+
+.btm-left {
+    position: absolute;
+    bottom: 5%;
+    left: 2%;
+    font-size: 19px;
+}
+
+.btm-right {
+    position: absolute;
+    bottom: 5%;
+    right: 5%;
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+.icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
